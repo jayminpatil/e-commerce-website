@@ -1,16 +1,20 @@
 import React from 'react'
 import './Header.css'
+import SearchIcon from '@mui/icons-material/Search';
+import MicIcon from '@mui/icons-material/Mic';
 
 function Header() {
   return (
     <div className='header'> 
         <img
-            className="Header_logo"
-            src="images.png"
+            className="header__logo"
+            src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
         />   
 
         <div className="header__search">
             <input className="header__searchInput" type="text" />
+            <SearchIcon className="header__searchIcon" />
+            <MicIcon className="header__micIcon" />
             {/* Logo */}
 
         </div>
