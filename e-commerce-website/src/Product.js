@@ -12,6 +12,19 @@ function Product() {
 
             </p>
 
+        <div className='product__rating'>
+            <p>⭐</p>
+            <p>⭐</p>
+            <p>⭐</p>
+            <img
+            src='https://kopithoughts.com/wp-content/uploads/2020/09/TheLeanStartup_side-800x800.jpeg'
+            alt=''
+            />
+            <button>Add to Basket</button>
+
+
+        </div>
+
         </div>
     </div>
   )
