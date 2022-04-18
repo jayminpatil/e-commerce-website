@@ -9,7 +9,7 @@ function Product() {
             <p className='product__price'>
                 <small>$</small>
                 <strong>19.99</strong>
-
+ 
             </p>
 
             <div className='product__rating'>
